@@ -7,11 +7,16 @@ body {
 }
 
 header {
-	background-color: #000;
-	color: #fff;
+	background-color: black;
+	color: yellow;
 	font-size: 1.5em;
 	padding: 1em;
 	text-transform: uppercase;
+}
+footer {
+	background-color: black
+	
+
 }
 
 /* 
@@ -19,7 +24,7 @@ header {
  */
 
 .columns {
-	float: left;
+	float: none;
 	height: 500px;
 	padding: 2%;
 	width: 29.33%;
@@ -49,23 +54,27 @@ header {
  * DIFFERENT SECTIONS, DIFFERENT STYLES
  */
 
+.navigation ul{ 
+	float-left;
 
+}
 section {
 	width: 33.33333%;
 	float:left;
 }
 
 
-section p{
 
 }
 #section1 {
 	background-color: #ff9999;
+	opacity: 0.5;
 	
 }
 
-#section2 {
-	background-color: #99ff99;
+
+	#section2 {
+	background-image: 
 	
 }
 
@@ -74,24 +83,12 @@ section p{
 	
 }
 
-@media only screen and (max-width:400px) {
-	section {
-		clear: both;
-		width: 100%;
-	}
+
+	
+
+
+#footer{
+	font-color: white;
+	background-color: black;
 }
 
-@media only screen and (max-width:768px) {
-	section{
-		width: 50%;
-	}
-	#section2{
-		float: right;
-	}
-	#section3 {
-
-		width: 100%;
-	}
-
-
-}
